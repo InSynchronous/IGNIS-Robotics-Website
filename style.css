@@ -44,6 +44,9 @@ h1, h2, h3, .page-title {
 
 p {
   color: var(--muted);
+  font-size: 1.05rem; /* slightly larger body text for better readability */
+  line-height: 1.6; /* more breathing room for long descriptions */
+  -webkit-font-smoothing: antialiased;
 }
 
 /* If text sits on a blue/gradient panel, keep it white for readability */
@@ -216,6 +219,7 @@ input[type="submit"],
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  color: #ffffff; /* ensure header text is white */
   border-bottom: 1px solid rgba(255,255,255,0.12);
 }
 
@@ -241,7 +245,7 @@ input[type="submit"],
 }
 
 nav a {
-  color: #e5e7eb;
+  color: #ffffff;
   margin-left: 1.25rem; /* more spacing between nav items */
   text-decoration: none;
   font-weight: 500;
@@ -502,6 +506,8 @@ main {
 
 .highlight-card p {
   color: #cbd5f5;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 section h3, main h2 {
@@ -668,9 +674,9 @@ section h3, main h2 {
 
 .sponsor-text p,
 .sponsor-text ul {
-  /* responsive body size: shrinks on smaller viewports so larger blocks fit better */
-  font-size: clamp(1.05rem, 1.6vw + 0.45rem, 1.25rem);
-  line-height: 1.6;
+  /* responsive body size: slightly larger minimum for better legibility */
+  font-size: clamp(1.1rem, 1.6vw + 0.45rem, 1.25rem);
+  line-height: 1.65;
 }
 
 .sponsor-text ul {
@@ -680,7 +686,7 @@ section h3, main h2 {
 }
 .sponsor-text ul li {
   margin: 0.6rem 0;
-  font-size: clamp(1.05rem, 1.6vw + 0.45rem, 1.25rem);
+  font-size: clamp(1.1rem, 1.6vw + 0.45rem, 1.25rem);
 }
 
 /* Center the sections below the main sponsor box and reduce excessive side gaps */
@@ -742,7 +748,8 @@ section h3, main h2 {
 }
 
 .contact-info p {
-  font-size: 1rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
 /* Contact page: add clear separation between the sign-up link block and socials */

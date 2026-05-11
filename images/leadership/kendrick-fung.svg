@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1080">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ef4444" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="1080" fill="url(#g3)" />
+  <g fill="#fff" font-family="Sora, Arial, sans-serif" text-anchor="middle">
+    <text x="720" y="360" font-size="110" font-weight="700">Kendrick</text>
+    <text x="720" y="460" font-size="86" font-weight="600">Fung</text>
+    <text x="720" y="700" font-size="40">Secretary</text>
+  </g>
+</svg>
